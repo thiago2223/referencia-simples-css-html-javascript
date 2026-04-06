@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root{
+    --cor0: #9dedff;
+    --cor1: #8fcbfc;
+    --cor2: #6ab3ef;
+    --cor3: #4e9ad9;
+    --cor4: #327cb9;
+    --cor5: #20547e;
+    --cor6: #082943;
+    --cor7: #3c59fc;
+    --fonte-paragrafos: Montserrat;
+    --fonte-titulos: Poppins;
+    --fonte-handwriting: 'Mrs Saint Delafield';
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+}
+div.header-ao-nav{
+    background: black url(../imagens/imagen-fundo-inicio.jpg) no-repeat fixed;
+    background-size: contain;
+
+}
+header{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    /*shorthand - background
+    color > image > position > repeate > [size] > attachment*/
+   
+}
+header > h1{
+    color: white;
+    font-size: 3.5em;
+    text-shadow: 5px 6px 5px #00000073;
+    margin: auto;
+    font-family: var(--fonte-titulos);
+}
+header > p{
+    font-family: var(--fonte-paragrafos);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 255, 0.21);
+    border-radius: 12px;
+}
+nav{
+    background-color: var(--cor6);
+    padding: 5px;
+    margin-top: 100px;
+}
+nav a{
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+    background-color: var(--cor5);
+    transition-duration: 0.5s;
+}
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 1300px;
+    padding: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+main h1{
+    text-align: center;
+    font-size: 2.6em;
+}
+main > h1, h2, h3, h4, h5, h6{
+    font-family: var(--fonte-titulos);
+}
+main p{
+    font-family: var(--fonte-paragrafos);
+    margin: 15px 0px;
+    font-size: 0.85em;
+}
+footer{
+    background-color: rgba(37, 117, 230, 0.226);
+}
+footer p{
+    text-align: center;
+}
+.video{
+    background-color: var(--cor1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0px -20px 40px -20px;
+    padding-bottom: 40%;
+    position: relative;
+}
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 88%;
+    height: 88%;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div{
+    background-color: gray;
+    color: white;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p{
+    display: none;
+}
+#div-de-exemplo-em-elementos-dentro-de-uma-div > p:hover{
+    display: block;
+    background-color: greenyellow;
+}
+#d1{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d2{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d3{
+    background-color: gray;
+    color: white;
+    width: 200px;
+    margin: 4px auto 4px auto;
+    border-radius: 100%;
+    border-radius: 12px;
+    text-align: center;
+}
+#d1 > p{
+    display: none;
+}
+#d2 > p{
+    display: none;
+}
+#d3 > p{
+    display: none;
+}
+#d1:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#d2:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+#d3:hover p{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.262);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+ .assuntos{
+   
+    padding: 10px;    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 13%;
+    background-color: darksalmon;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+    margin-bottom: 15px;
+        }
+.meu-nome{
+    font-family: var(--fonte-handwriting);
+    font-size: 3em;
+}
