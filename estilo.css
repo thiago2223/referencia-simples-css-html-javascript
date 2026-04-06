@@ -24,7 +24,7 @@ body{
     background-color: antiquewhite;
 }
 div.header-ao-nav{
-    background: black url(../imagens/imagen-fundo-inicio.jpg) no-repeat fixed;
+    background: black url(imagens/imagen-fundo-inicio.jpg) no-repeat fixed;
     background-size: contain;
 
 }
