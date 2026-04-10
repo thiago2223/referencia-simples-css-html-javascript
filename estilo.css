@@ -23,6 +23,12 @@
 body{
     background-color: antiquewhite;
 }
+p{
+    text-indent: 30px;
+    line-height: 2.3em;
+    font-size: 1.3em;
+    text-align: justify;
+}
 div.header-ao-nav{
     background: black url(imagens/imagen-fundo-inicio.jpg) no-repeat fixed;
     background-size: contain;
@@ -191,4 +197,21 @@ footer p{
 .meu-nome{
     font-family: var(--fonte-handwriting);
     font-size: 3em;
+}
+.js-imagen{
+   width: 50%;
+}
+code{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.126);
+    font-family: var(--fonte-paragrafos);
+    font-weight: bold;
+}
+pre{
+     border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.126);
+    font-family: var(--fonte-paragrafos);
+    font-weight: bold;
 }
